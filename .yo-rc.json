@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "bettingapplication",
+    "packageName": "io.betting.application",
+    "packageFolder": "io/betting/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "ZGVlZDlhYzc3OWYyNTBiMTRmZWRjZWI5ZGQ5MGI4NDU4MjM4ZDVkMTdjMzdhNDVhZTZmNjVkNmZhOTg5YzAwNmFiZGUzMzgwY2ZlYTdiNGFhZjE2NDY2MmVlNDExY2EyZTYxZDQxYmZkMTE5OTc4YmNmMzU2MDEzZjU1MmJmY2M=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "panosadamop",
+  "repository-name": "betting-application"
+}
